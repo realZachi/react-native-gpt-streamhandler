@@ -1,13 +1,13 @@
 {
   "name": "react-native-gpt-streamhandler",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "This package provides a simple functionality to handle server-stream-events for your Application so that responses from the OpenAI Api are shown in realtime.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mahmoud Ali Khan",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "react-native-sse": "^1.1.0"
   },

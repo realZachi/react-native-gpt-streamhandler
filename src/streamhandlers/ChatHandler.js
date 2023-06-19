@@ -6,7 +6,7 @@ import { GPTMODELS, URL } from '../utils/constants';
 /**
  * Function to handle a Chat as a Conversation with the OpenAI API
  * @param {Object} options - Options for the API call
- * @param {Array} options.messages - Array of message objects
+ * @param {Array} options.messages - Array of message objects with the following structure: {role: 'user' | 'assistant', content: 'string'}
  * @param {Function} options.setMessages - Function to update the state of the messages
  * @param {string} options.apiKey - OpenAI API Key without the 'Bearer' prefix
  * @param {function} options.statusCallback - Optional function to update the status of the chat (true when the chat is started, false when the chat is finished)
