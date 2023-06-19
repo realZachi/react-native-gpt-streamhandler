@@ -4,5 +4,5 @@
  * @returns new message list with appropriate format
  */
 export function formatMessages(messages) {
-    return messages.map(({_id, text, createdAt, ...rest}) => rest);
+  return messages.map(({ _id, text, createdAt, ...rest }) => rest);
 }
