@@ -1,0 +1,7 @@
+{
+  "name": "react-native-gpt-streamhandler",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-native-sse": "^1.1.0"
+  }
+}
