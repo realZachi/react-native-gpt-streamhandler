@@ -1,6 +1,6 @@
 {
   "name": "react-native-gpt-streamhandler",
-  "version": "1.2.4",
+  "version": "1.2.6",
   "description": "This is a helper library for React Native developers who want to build applications using the OpenAI API. The main aim is to streamline the process of handling Server-Sent Events (SSE) stream from the OpenAI API, mimicking a real-time chat environment.\n\nThe package exposes two main components: ChatHandler and SingleMessageHandler, which facilitate multi-turn conversation and single message handling respectively.",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,29 @@
   },
   "author": "Mahmoud Ali Khan",
   "license": "MIT",
+  "keywords": [
+    "react-native",
+    "openai",
+    "openai-api",
+    "gpt-3",
+    "gpt-3.5-turbo",
+    "gpt-4",
+    "server-sent-events",
+    "real-time-chat",
+    "chatbot",
+    "stream-handler",
+    "machine-learning",
+    "artificial-intelligence",
+    "ai-chatbot",
+    "nlp",
+    "natural-language-processing",
+    "sse",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realZachi/react-native-gpt-streamhandler"
+  },
   "dependencies": {
     "react-native-sse": "^1.1.0"
   },
