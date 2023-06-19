@@ -1,6 +1,6 @@
 {
   "name": "react-native-gpt-streamhandler",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "This is a helper library for React Native developers who want to build applications using the OpenAI API. The main aim is to streamline the process of handling Server-Sent Events (SSE) stream from the OpenAI API, mimicking a real-time chat environment.\n\nThe package exposes two main components: ChatHandler and SingleMessageHandler, which facilitate multi-turn conversation and single message handling respectively.",
   "main": "index.js",
   "scripts": {
